@@ -1,0 +1,95 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  background-color: #2f3c7e;
+  height: 100vh;
+}
+.form {
+  background-color: #fbeaeb;
+  width: 70%;
+  margin: 1% auto;
+  padding: 3%;
+  border-radius: 10px;
+}
+.form h1 {
+  text-align: center;
+}
+.form label {
+  font-size: 20px;
+  font-weight: 500;
+  margin-bottom: 5px;
+}
+input[type="text"],
+input[type="email"] {
+  padding: 10px;
+  width: 100%;
+  border: none;
+  border: 1px solid black;
+  margin-top: 5px;
+  border-radius: 5px;
+}
+input[type="radio"],
+input[type="checkbox"] {
+  margin: 10px 5px;
+}
+input[type="radio"] {
+  margin-top: 20px;
+}
+button {
+  padding: 10px 20px;
+  margin: 10px 5px;
+  border: none;
+  background-color: #2f3c7e;
+  color: white;
+  border-radius: 5px;
+  margin-top: 20px;
+}
+.clear {
+  background-color: white;
+  color: black;
+}
+.clear:hover {
+  background-color: red;
+  color: white;
+}
+
+/* Card */
+.card {
+  width: 70%;
+  background-color: #fbeaeb;
+  margin: 10px auto;
+  display: flex;
+  justify-content: space-between;
+  padding: 10px;
+  border-radius: 10px;
+}
+
+.card ul li {
+  list-style: none;
+}
+.img {
+  border-radius: 10px;
+}
+
+.success {
+  font-size: 20px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.detail ul {
+  padding: 0%;
+  margin: 0%;
+}
+.detail {
+  padding-left: 50px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+.detail ul li {
+  font-size: 20px;
+}
